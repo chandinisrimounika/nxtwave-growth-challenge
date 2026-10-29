@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build Your First AI Project in 60 Minutes | NxtWave Free Workshop</title>
+  <meta name="description" content="Join 500+ final-year engineering students for a free live workshop. Build a real AI project in 60 minutes. Register now and earn your spot!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Animated background -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Nav -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">NxtWave</span>
+      </div>
+      <div class="nav-cta">
+        <a href="#register" class="btn btn-ghost btn-sm">Register Free →</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Free Live Workshop · Limited Seats</span>
+      </div>
+      <h1 class="hero-title">
+        Build Your First<br />
+        <span class="gradient-text">AI Project</span><br />
+        in 60 Minutes
+      </h1>
+      <p class="hero-subtitle">
+        A hands-on live workshop designed for final-year engineering students.<br />
+        No prior AI experience needed. Walk away with a working project.
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" id="reg-count">0</span>
+          <span class="stat-label">Registered</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">500</span>
+          <span class="stat-label">Seats Total</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">60</span>
+          <span class="stat-label">Minutes</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">₹0</span>
+          <span class="stat-label">Cost</span>
+        </div>
+      </div>
+
+      <!-- Urgency Bar -->
+      <div class="urgency-bar">
+        <div class="urgency-fill" id="urgency-fill"></div>
+      </div>
+      <p class="urgency-text" id="urgency-text">Loading seats...</p>
+
+      <div class="hero-actions">
+        <a href="#register" class="btn btn-primary btn-lg" id="hero-cta">
+          <span>Grab Your Free Seat</span>
+          <span class="btn-icon">🚀</span>
+        </a>
+        <a href="#about" class="btn btn-outline btn-lg">See What You'll Build</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>✓ Certificate of Completion</span>
+        <span>✓ Live AI Project</span>
+        <span>✓ Career Guidance</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">What You'll Learn</p>
+        <h2 class="section-title">60 Minutes. One Real AI Project.</h2>
+        <p class="section-subtitle">No fluff. No slides. Pure hands-on building.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3>AI Fundamentals Fast</h3>
+          <p>Understand how modern AI APIs work — in plain English, in 10 minutes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💻</div>
+          <h3>Build a Working App</h3>
+          <p>Ship a real AI-powered web app using free tools. No coding experience needed.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Resume-Ready Project</h3>
+          <p>Add a working AI project to your portfolio before placements begin.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>Deploy & Share Live</h3>
+          <p>Get a live URL of your AI project you can share with recruiters immediately.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📜</div>
+          <h3>Verified Certificate</h3>
+          <p>Receive a completion certificate from NxtWave to add to your LinkedIn.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💼</div>
+          <h3>Placement Insights</h3>
+          <p>Exclusive Q&A on how AI skills are changing hiring in 2025.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section class="register-section" id="register">
+    <div class="container">
+      <div class="register-wrapper">
+        <div class="register-left">
+          <p class="section-tag">Register Now</p>
+          <h2 class="register-title">Secure Your<br /><span class="gradient-text">Free Seat</span></h2>
+          <p class="register-subtitle">Takes 30 seconds. Instant confirmation on WhatsApp.</p>
+
+          <div class="perks-list">
+            <div class="perk-item">
+              <span class="perk-check">✓</span>
+              <span>Free access to live workshop</span>
+            </div>
+            <div class="perk-item">
+              <span class="perk-check">✓</span>
+              <span>Get your unique referral code</span>
+            </div>
+            <div class="perk-item">
+              <span class="perk-check">✓</span>
+              <span>Refer friends & climb the leaderboard</span>
+            </div>
+            <div class="perk-item">
+              <span class="perk-check">✓</span>
+              <span>Top 3 referrers win exclusive prizes</span>
+            </div>
+          </div>
+
+          <div class="workshop-date">
+            <div class="date-icon">📅</div>
+            <div>
+              <div class="date-label">Workshop Date</div>
+              <div class="date-value">Saturday, 8 November 2025 · 6:00 PM IST</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="register-right">
+          <div class="form-card" id="form-card">
+            <div class="form-header">
+              <h3>Register in 30 Seconds</h3>
+              <p>Join <span id="live-count">247</span> students already registered</p>
+            </div>
+
+            <form id="reg-form" novalidate>
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Arjun Sharma" required />
+                <span class="field-error" id="name-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">College Email *</label>
+                <input type="email" id="email" name="email" placeholder="you@college.edu.in" required />
+                <span class="field-error" id="email-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="phone">WhatsApp Number *</label>
+                <div class="phone-input-wrap">
+                  <span class="phone-prefix">+91</span>
+                  <input type="tel" id="phone" name="phone" placeholder="9876543210" maxlength="10" required />
+                </div>
+                <span class="field-error" id="phone-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="college">College Name *</label>
+                <input type="text" id="college" name="college" placeholder="e.g. JNTU Hyderabad" required />
+                <span class="field-error" id="college-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="branch">Branch & Year *</label>
+                <select id="branch" name="branch" required>
+                  <option value="">Select your branch</option>
+                  <option value="CSE-4">CSE – Final Year</option>
+                  <option value="ECE-4">ECE – Final Year</option>
+                  <option value="EEE-4">EEE – Final Year</option>
+                  <option value="MECH-4">Mechanical – Final Year</option>
+                  <option value="IT-4">IT – Final Year</option>
+                  <option value="CIVIL-4">Civil – Final Year</option>
+                  <option value="OTHER-4">Other – Final Year</option>
+                </select>
+                <span class="field-error" id="branch-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="ref-code">Referral Code <span class="optional">(optional)</span></label>
+                <input type="text" id="ref-code" name="ref-code" placeholder="Enter friend's code (e.g. ARJUN42)" />
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full btn-lg" id="submit-btn">
+                <span id="btn-text">Register for Free 🚀</span>
+                <span id="btn-loader" class="btn-loader hidden"></span>
+              </button>
+
+              <p class="form-disclaimer">No spam. No fees. Instant WhatsApp confirmation.</p>
+            </form>
+          </div>
+
+          <!-- Success Card (hidden initially) -->
+          <div class="success-card hidden" id="success-card">
+            <div class="success-icon">🎉</div>
+            <h3>You're In!</h3>
+            <p>Welcome to the workshop, <strong id="success-name"></strong>!</p>
+            <div class="ref-code-box">
+              <p class="ref-label">Your Unique Referral Code</p>
+              <div class="ref-code" id="your-ref-code"></div>
+              <p class="ref-hint">Share this code. For every friend who registers, you climb the leaderboard!</p>
+            </div>
+            <div class="share-actions">
+              <button class="btn btn-whatsapp" id="share-whatsapp" onclick="shareOnWhatsApp()">
+                <span>📱</span> Share on WhatsApp
+              </button>
+              <button class="btn btn-copy" id="copy-link" onclick="copyReferralLink()">
+                <span>📋</span> Copy Link
+              </button>
+            </div>
+            <a href="#leaderboard" class="btn btn-outline btn-full mt-1">View Leaderboard 🏆</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leaderboard Section -->
+  <section class="leaderboard-section" id="leaderboard">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">🏆 Referral Leaderboard</p>
+        <h2 class="section-title">Top Ambassadors Win</h2>
+        <p class="section-subtitle">Refer friends. Climb the board. Win exclusive prizes from NxtWave.</p>
+      </div>
+
+      <div class="prizes-row">
+        <div class="prize-card prize-gold">
+          <div class="prize-rank">🥇 1st</div>
+          <div class="prize-name">NxtWave Pro<br />3-Month Access</div>
+          <div class="prize-value">₹4,999 value</div>
+        </div>
+        <div class="prize-card prize-silver">
+          <div class="prize-rank">🥈 2nd</div>
+          <div class="prize-name">1-on-1 Career<br />Mentorship Session</div>
+          <div class="prize-value">₹2,499 value</div>
+        </div>
+        <div class="prize-card prize-bronze">
+          <div class="prize-rank">🥉 3rd</div>
+          <div class="prize-name">NxtWave Swag<br />Kit + Certificate</div>
+          <div class="prize-value">₹999 value</div>
+        </div>
+      </div>
+
+      <div class="leaderboard-table">
+        <div class="lb-header">
+          <span>Rank</span>
+          <span>Name</span>
+          <span>College</span>
+          <span>Referrals</span>
+        </div>
+        <div class="lb-body" id="lb-body">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <div class="lb-footer">
+        <p>🔄 Updates every 30 seconds · Register above to appear on the board</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">FAQs</p>
+        <h2 class="section-title">Got Questions?</h2>
+      </div>
+      <div class="faq-grid" id="faq-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-icon">⚡</span>
+          <span class="logo-text">NxtWave</span>
+        </div>
+        <p class="footer-text">© 2025 NxtWave. All rights reserved. | Free Workshop Simulation</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Admin Panel Toggle -->
+  <button class="admin-toggle" id="admin-toggle" onclick="toggleAdmin()" title="Admin Dashboard">📊</button>
+
+  <!-- Admin Dashboard Modal -->
+  <div class="admin-modal hidden" id="admin-modal">
+    <div class="admin-panel">
+      <div class="admin-header">
+        <h3>📊 Admin Dashboard</h3>
+        <button class="admin-close" onclick="toggleAdmin()">✕</button>
+      </div>
+      <div class="admin-stats">
+        <div class="admin-stat">
+          <div class="admin-stat-val" id="admin-total">0</div>
+          <div class="admin-stat-lbl">Total Registrations</div>
+        </div>
+        <div class="admin-stat">
+          <div class="admin-stat-val" id="admin-referral">0</div>
+          <div class="admin-stat-lbl">Via Referral</div>
+        </div>
+        <div class="admin-stat">
+          <div class="admin-stat-val" id="admin-organic">0</div>
+          <div class="admin-stat-lbl">Organic</div>
+        </div>
+        <div class="admin-stat">
+          <div class="admin-stat-val" id="admin-target">500</div>
+          <div class="admin-stat-lbl">Target</div>
+        </div>
+      </div>
+
+      <div class="admin-progress-wrap">
+        <div class="admin-progress-label">
+          <span>Progress to Goal</span>
+          <span id="admin-progress-pct">0%</span>
+        </div>
+        <div class="admin-progress-bar">
+          <div class="admin-progress-fill" id="admin-progress-fill"></div>
+        </div>
+      </div>
+
+      <div class="admin-table-wrap">
+        <h4>Recent Registrations</h4>
+        <table class="admin-table" id="admin-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>College</th>
+              <th>Branch</th>
+              <th>Ref Code</th>
+              <th>Referred By</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody id="admin-tbody">
+            <!-- Populated by JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="admin-actions">
+        <button class="btn btn-sm btn-outline" onclick="exportCSV()">⬇️ Export CSV</button>
+        <button class="btn btn-sm btn-outline" onclick="resetAll()">🗑️ Reset (Demo)</button>
+        <button class="btn btn-sm btn-outline" onclick="loadDemoData()">🎭 Load Demo Data</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
